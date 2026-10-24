@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080a09">
+<meta name="description" content="FRAME / MOTION creates dimensional images, kinetic identities, and visual worlds beyond the ordinary.">
+<title>FRAME / MOTION - Worlds in Motion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<script src="./three.min.js" defer></script>
+<script src="./app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="experience" aria-hidden="true"><canvas id="worldCanvas"></canvas><div class="world-wash"></div><div class="world-grain"></div></div>
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="FRAME / MOTION home"><span>FRAME</span><i>/</i><span>MOTION</span></a>
+  <nav class="primary-nav" id="primaryNavigation" aria-label="Main navigation">
+    <a href="#work">Work</a><a href="#studio">Studio</a><a href="#services">Services</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="header-availability"><span class="availability-dot"></span><span>Available for select projects</span></div>
+  <button class="menu-toggle" type="button" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
+</header>
+<main id="main">
+  <section class="hero scene-section" id="home" data-scene="hero" aria-labelledby="heroTitle">
+    <div class="hero-copy">
+      <p class="eyebrow"><span>001</span><i></i><span>Visual worldbuilding</span></p>
+      <h1 class="hero-title" id="heroTitle"><span>WORLDS</span><span class="outline">IN MOTION.</span></h1>
+      <p class="hero-description">We create dimensional images, kinetic identities, and visual worlds beyond the ordinary.</p>
+      <div class="hero-actions"><a class="action action-primary" href="#work">Explore the work <span aria-hidden="true">&#8599;</span></a><a class="action action-quiet" href="#contact">Start a project <span aria-hidden="true">&#8599;</span></a></div>
+    </div>
+    <div class="hero-index"><span class="index-number">01</span><span class="index-rule"></span><span class="index-total">04</span></div>
+    <div class="hero-meta"><span>3D / Motion / Art direction</span><span class="scene-status"><i></i>Scene status / initializing</span></div>
+    <a class="scroll-cue" href="#work"><span>Scroll to explore</span><i aria-hidden="true"></i></a>
+  </section>
+
+  <section class="work-section scene-section" id="work" data-scene="work" aria-labelledby="workTitle">
+    <div class="section-shell">
+      <div class="section-heading"><div><p class="eyebrow"><span>02</span><i></i><span>Selected worlds</span></p><h2 id="workTitle">Three studies<br>in <em>motion.</em></h2></div><p class="section-lede">Original concept films exploring light, rhythm, and impossible places. Scroll through the gallery to bring each world into focus.</p></div>
+      <div class="project-list" role="group" aria-label="Concept film studies">
+        <button class="project-row is-active" type="button" data-project="0" aria-pressed="true"><span class="project-no">01</span><span class="project-main"><strong>SOLIS</strong><small>Product film concept / light and matter</small></span><span class="project-kind">Concept film</span><span class="project-arrow" aria-hidden="true">&#8599;</span></button>
+        <button class="project-row" type="button" data-project="1" aria-pressed="false"><span class="project-no">02</span><span class="project-main"><strong>SOFT SIGNAL</strong><small>Music visual concept / color and rhythm</small></span><span class="project-kind">Motion study</span><span class="project-arrow" aria-hidden="true">&#8599;</span></button>
+        <button class="project-row" type="button" data-project="2" aria-pressed="false"><span class="project-no">03</span><span class="project-main"><strong>OTHER WORLDS</strong><small>Worldbuilding concept / scale and atmosphere</small></span><span class="project-kind">World study</span><span class="project-arrow" aria-hidden="true">&#8599;</span></button>
+      </div>
+      <div class="work-foot"><span>Independent concept work</span><span>Use the project names to focus the 3D frames</span></div>
+    </div>
+  </section>
+
+  <section class="studio-section scene-section" id="studio" data-scene="studio" aria-labelledby="studioTitle">
+    <div class="studio-shell"><p class="eyebrow"><span>03</span><i></i><span>The studio</span></p><h2 id="studioTitle">WE BUILD WORLDS<br>THAT MOVE <em>YOU.</em></h2><div class="studio-bottom"><p>FRAME / MOTION is an independent creative practice for 3D imagery, motion systems, art direction, and cinematic visual storytelling.</p><span class="studio-note">From the first sketch<br>to the final frame.</span></div></div>
+  </section>
+
+  <section class="services-section scene-section" id="services" data-scene="services" aria-labelledby="servicesTitle">
+    <div class="services-shell">
+      <div class="section-heading services-heading"><div><p class="eyebrow"><span>04</span><i></i><span>What we do</span></p><h2 id="servicesTitle">Built to move.<br><em>Made to matter.</em></h2></div><p class="section-lede">A focused set of capabilities, shaped around a singular idea and carried through to the final frame.</p></div>
+      <div class="service-list">
+        <a class="service-row" href="#contact"><span>01</span><strong>3D Art Direction</strong><small>Worlds, compositions, and visual language.</small><i aria-hidden="true">&#8599;</i></a>
+        <a class="service-row" href="#contact"><span>02</span><strong>Motion Design</strong><small>Kinetic identities, titles, and campaign systems.</small><i aria-hidden="true">&#8599;</i></a>
+        <a class="service-row" href="#contact"><span>03</span><strong>Product Visualization</strong><small>Material, light, and detail made tangible.</small><i aria-hidden="true">&#8599;</i></a>
+        <a class="service-row" href="#contact"><span>04</span><strong>Visual Identity</strong><small>Distinctive image systems for moving brands.</small><i aria-hidden="true">&#8599;</i></a>
+        <a class="service-row" href="#contact"><span>05</span><strong>Cinematic Campaigns</strong><small>Film craft from first idea to final delivery.</small><i aria-hidden="true">&#8599;</i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section scene-section" id="contact" data-scene="contact" aria-labelledby="contactTitle">
+    <div class="contact-shell">
+      <div class="contact-copy"><p class="eyebrow"><span>05</span><i></i><span>Start a project</span></p><h2 id="contactTitle">HAVE A WORLD<br>IN <em>MIND?</em></h2><p>Tell us what you are imagining. We will shape the right way to bring it into motion.</p><a class="contact-email" href="mailto:hello@frameby.no">hello@frameby.no <span aria-hidden="true">&#8599;</span></a></div>
+      <form class="inquiry-form" id="inquiryForm" data-email="hello@frameby.no">
+        <div class="form-row"><label>Your name<input name="name" type="text" autocomplete="name" placeholder="Name" required></label><label>Email address<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required></label></div>
+        <label>Project type<select name="project" required><option value="" disabled selected>Select a direction</option><option>3D art direction</option><option>Motion design</option><option>Product visualization</option><option>Visual identity</option><option>Cinematic campaign</option><option>Something else</option></select></label>
+        <label>Tell us about it<textarea name="message" rows="3" placeholder="A few lines about the idea, timing, or feeling." required></textarea></label>
+        <button class="form-submit" type="submit">Prepare project email <span aria-hidden="true">&#8599;</span></button>
+        <p class="form-note">Opens a pre-filled email in your mail app.</p><p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span>FRAME</span><i>/</i><span>MOTION</span></a><span class="footer-credit">Independent motion design practice / 2026</span><div class="footer-links"><a href="https://vimeo.com/" target="_blank" rel="noreferrer">Vimeo &#8599;</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram &#8599;</a><a href="mailto:hello@frameby.no">Email &#8599;</a></div></footer>
+</main>
+</body>
+</html>
